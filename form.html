@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Input</title>
+</head>
+<body>
+    <h1>Enter Data</h1>
+    <form action="/" method="POST">
+        Event ID: <input type="text" name="EVENT_ID"><br>
+        Channel: <input type="text" name="CHANNEL"><br>
+        User ID: <input type="text" name="USER_ID"><br>
+        IP Address: <input type="text" name="IP_ADDRESS"><br>
+        ISP: <input type="text" name="ISP"><br>
+        Payee ID: <input type="text" name="PAYEE_ID"><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if prediction %}
+    <h2>{{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>

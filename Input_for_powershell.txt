@@ -1,0 +1,10 @@
+$body = @{
+    "EVENT_ID" = 1
+    "CHANNEL" = 0
+    "USER_ID" = 413
+    "IP_ADDRESS" = 756
+    "ISP" = 7
+    "PAYEE_ID" = 27
+} | ConvertTo-Json
+
+Invoke-RestMethod -Method Post -Body $body -Uri http://localhost:5000/predict -ContentType "application/json"

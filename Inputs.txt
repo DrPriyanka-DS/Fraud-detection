@@ -1,0 +1,17 @@
+Fraud Input:
+12
+WEB
+user212
+211.20.30.205
+ISP3
+payee54
+
+
+
+Genuine Input:
+32
+MOBILE-BROWSER	
+user16
+38.223.123.100
+ISP2
+payee50
